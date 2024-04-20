@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.box {
+    margin-bottom: 20px;
+    width: 200px; /* Adjust width as needed */
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    margin-top: 10px;
+}
